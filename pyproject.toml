@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+addopts = ["--import-mode=importlib"]
+testpaths = [
+    "01_python_basico/tests",
+    "02_condicionales/tests",
+    "03_bucles/tests",
+    "04_listas_tuplas/tests",
+    "tests"
+]
+pythonpath = ["."]

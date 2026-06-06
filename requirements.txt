@@ -1,0 +1,5 @@
+pytest>=8.0
+flet>=0.24
+pyserial>=3.5
+requests>=2.31
+paho-mqtt>=2.0
