@@ -1,40 +1,42 @@
-﻿"""
+"""
 Ejercicio 06 - Lectura valida
 
 Objetivo:
-Practicar lectura valida en un contexto util para Python, sensores o automatizacion.
+Practicar comparaciones booleanas con una lectura de sensor.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Muestra True si una temperatura esta entre -40 y 80 grados.
+Crea una variable `temperatura`. Luego crea una variable booleana `lectura_valida` que sea `True` si la temperatura esta entre -40 y 80 grados, incluyendo los bordes. Imprime el resultado.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa una temperatura fija.
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+Lectura valida: True
 
 Restricciones:
-- Usa comparaciones encadenadas.
+- Debes definir `temperatura` y `lectura_valida`. Usa una comparacion encadenada como `-40 <= temperatura <= 80`.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. Una comparacion produce `True` o `False`.
+2. Python permite comparaciones encadenadas.
+3. Prueba cambiando la temperatura a 90 para ver un caso invalido.
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Crea tambien una validacion para humedad entre 0 y 100.
 """
 
 # =========================
 # ZONA DE TRABAJO
 # =========================
 # Escribe tu codigo aqui
-
+temperatura = 90
+lectura_valida = -40 <= temperatura <= 80
+print(f"La lectura es valida de {temperatura}: {lectura_valida}")
 

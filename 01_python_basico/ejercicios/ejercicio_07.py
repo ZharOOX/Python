@@ -1,40 +1,42 @@
-﻿"""
+"""
 Ejercicio 07 - Mensaje de alerta
 
 Objetivo:
-Practicar mensaje de alerta en un contexto util para Python, sensores o automatizacion.
+Practicar construccion de texto con variables.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Crea un mensaje con temperatura y umbral.
+Crea `temperatura`, `umbral` y `mensaje`. El mensaje debe incluir la temperatura y el umbral. Imprime `mensaje`. No uses `if`; esta semana solo construimos el texto.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos.
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+ALERTA posible: temperatura 31.2 C, umbral 30 C
 
 Restricciones:
-- Aun no uses if; solo construye texto.
+- Debes definir una variable llamada `mensaje`. La salida debe mencionar temperatura y umbral.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. Usa un f-string para insertar valores dentro del texto.
+2. El mensaje puede decir alerta posible, sin decidir con if.
+3. Si pytest falla, revisa que exista la variable `mensaje`.
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Agrega humedad al mensaje.
 """
 
 # =========================
 # ZONA DE TRABAJO
 # =========================
 # Escribe tu codigo aqui
-
+temperatura = 40
+umbral = 30
+mensaje = "La temperatura es: " + str(temperatura) + "C y el umbral es:"  + str(umbral) + "C""
 

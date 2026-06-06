@@ -1,35 +1,35 @@
-﻿"""
+"""
 Ejercicio 05 - Temperatura por input
 
 Objetivo:
-Practicar temperatura por input en un contexto util para Python, sensores o automatizacion.
+Practicar entrada de usuario y conversion de texto a numero.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Pide temperatura al usuario y muestra el valor como numero.
+Pide una temperatura al usuario con `input()`. Convierte el texto a numero con `float()` y guarda el resultado en una variable llamada `temperatura`. Imprime la lectura recibida.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+24.5
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+Lectura recibida: 24.5 C
 
 Restricciones:
-- Convierte input con float.
+- Debes usar `float(input(...))` o una conversion equivalente. La variable final debe llamarse `temperatura`.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. Recuerda que `input()` devuelve texto.
+2. Usa `float()` para poder trabajar con decimales.
+3. Si pytest falla, revisa que la variable se llame exactamente `temperatura`.
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Pide tambien humedad y muestrala en el reporte.
 """
 
 # =========================
@@ -37,4 +37,5 @@ Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sent
 # =========================
 # Escribe tu codigo aqui
 
-
+temperatura = float(input("Ingresa la temperatura: "))
+print(f"La temperatura es: {temperatura}")

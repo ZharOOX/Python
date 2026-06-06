@@ -1,22 +1,24 @@
 # Ejercicio 04: Corriente con Ley de Ohm
 
-## Nivel
-basico
-
 ## Objetivo
-Practicar corriente con ley de ohm en un contexto util para Python, sensores o automatizacion.
+Practicar division y variables relacionadas con electricidad basica.
 
 ## Enunciado
-Calcula corriente usando voltaje y resistencia.
+Crea `voltaje`, `resistencia` y `corriente`. Calcula la corriente con `corriente = voltaje / resistencia`. Imprime el resultado en amperes.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos, por ejemplo voltaje 5 y resistencia 1000.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+Corriente: 0.005 A
 
 ## Restricciones
-I = V / R. No uses resistencia cero.
+La resistencia no puede ser cero. Debes definir `voltaje`, `resistencia` y `corriente`.
+
+## Pistas breves
+1. La formula es I = V / R.
+2. Usa una resistencia positiva.
+3. Si aparece division por cero, cambia el valor de resistencia.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Calcula la corriente para una resistencia de 220 ohm.

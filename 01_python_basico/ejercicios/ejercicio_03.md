@@ -1,22 +1,24 @@
 # Ejercicio 03: Celsius a Fahrenheit
 
-## Nivel
-basico
-
 ## Objetivo
-Practicar celsius a fahrenheit en un contexto util para Python, sensores o automatizacion.
+Practicar operaciones aritmeticas y guardar el resultado de una conversion.
 
 ## Enunciado
-Convierte una temperatura Celsius a Fahrenheit.
+Crea una variable `celsius` con una temperatura fija. Calcula `fahrenheit` usando la formula `fahrenheit = celsius * 9 / 5 + 32`. Imprime ambas temperaturas.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa un valor fijo para `celsius`.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+25 C = 77.0 F
 
 ## Restricciones
-Formula: F = C * 9 / 5 + 32.
+Debes definir `celsius` y `fahrenheit`. Usa exactamente la formula indicada.
+
+## Pistas breves
+1. Primero guarda el valor en Celsius.
+2. Luego crea otra variable para el resultado en Fahrenheit.
+3. Si el calculo no coincide, revisa el orden de multiplicacion, division y suma.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Prueba con 0 C y 100 C.

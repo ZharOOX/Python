@@ -1,22 +1,24 @@
 # Ejercicio 09: Salida con f-strings
 
-## Nivel
-intermedio
-
 ## Objetivo
-Practicar salida con f-strings en un contexto util para Python, sensores o automatizacion.
+Practicar formato de numeros decimales.
 
 ## Enunciado
-Formatea voltaje con dos decimales.
+Crea una variable `voltaje` con un decimal largo, por ejemplo 3.2789. Imprime el voltaje usando f-string con dos decimales: `{voltaje:.2f}`.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa un valor fijo para voltaje.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+Voltaje: 3.28 V
 
 ## Restricciones
-Usa :.2f dentro del f-string.
+Debes definir `voltaje` como numero. La salida debe mostrar algun numero con exactamente dos decimales.
+
+## Pistas breves
+1. Dentro de un f-string puedes escribir `{voltaje:.2f}`.
+2. El formato redondea visualmente el numero.
+3. Si pytest falla, revisa que aparezcan dos digitos despues del punto.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Muestra tambien corriente con tres decimales.

@@ -1,35 +1,37 @@
-﻿"""
+"""
 Ejercicio 01 - Crear variables de sensor
 
 Objetivo:
-Practicar crear variables de sensor en un contexto util para Python, sensores o automatizacion.
+Practicar la creacion de variables numericas y mostrar un reporte basico.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Define temperatura, humedad y voltaje con valores fijos y muestralos en pantalla.
+Crea tres variables llamadas `temperatura`, `humedad` y `voltaje`. Asigna valores numericos fijos. Luego imprime un reporte que mencione claramente temperatura, humedad y voltaje con sus unidades.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos, por ejemplo temperatura 24.5, humedad 58 y voltaje 3.3.
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+Temperatura: 24.5 C
+Humedad: 58 %
+Voltaje: 3.3 V
 
 Restricciones:
-- Sin input. Usa nombres descriptivos.
+- Debes definir `temperatura`, `humedad` y `voltaje` como numeros. La salida debe mencionar esas tres palabras.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. Empieza creando una variable por cada lectura.
+2. Usa `print()` o f-strings para mostrar cada dato.
+3. Si pytest falla, revisa que los nombres de variables sean exactamente `temperatura`, `humedad` y `voltaje`.
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Cambia los valores y mejora el formato del reporte.
 """
 
 # =========================

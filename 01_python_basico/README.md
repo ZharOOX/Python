@@ -27,6 +27,24 @@ python -m pytest 01_python_basico/tests
 
 En macOS/Linux los comandos son iguales si el entorno virtual ya esta activado.
 
+## Verificar tus ejercicios con pytest
+
+Para revisar tu trabajo real de Semana 1:
+
+```powershell
+python -m pytest 01_python_basico/tests/test_ejercicios_usuario_semana_01.py
+```
+
+Si un ejercicio esta vacio, pytest fallara. Usa el mensaje de error como guia para corregir.
+
+Tambien puedes usar el verificador simple:
+
+```powershell
+python verificar.py ejercicios 1
+python verificar.py ejercicio 1 1
+python verificar.py semana 1
+```
+
 ## Resultado esperado
 
 Al terminar debes poder escribir un programa pequeno que guarde lecturas simuladas, haga calculos simples, muestre reportes claros y use variables con nombres legibles.

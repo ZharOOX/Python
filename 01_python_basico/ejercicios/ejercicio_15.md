@@ -1,22 +1,26 @@
 # Ejercicio 15: Diagnostico basico
 
-## Nivel
-reto
-
 ## Objetivo
-Practicar diagnostico basico en un contexto util para Python, sensores o automatizacion.
+Practicar mezcla de str, float y bool en un reporte simple.
 
 ## Enunciado
-Crea un diagnostico con nombre, version, voltaje y bandera conectado.
+Crea `nombre`, `version`, `voltaje` y `conectado`. `nombre` y `version` deben ser texto, `voltaje` debe ser numero y `conectado` debe ser booleano. Imprime un diagnostico que muestre voltaje y conectado.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+controlador_simulado v0.1
+Voltaje: 3.3 V
+Conectado: True
 
 ## Restricciones
-Usa str, float y bool.
+Debes definir `nombre`, `version`, `voltaje` y `conectado` con los tipos correctos.
+
+## Pistas breves
+1. Recuerda que booleano es `True` o `False` con mayuscula inicial.
+2. Usa `str` para nombre y version.
+3. La salida debe mencionar voltaje y conectado.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Agrega una variable `estado` con texto.

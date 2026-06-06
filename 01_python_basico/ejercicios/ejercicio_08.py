@@ -1,35 +1,35 @@
-﻿"""
+"""
 Ejercicio 08 - Promedio de dos sensores
 
 Objetivo:
-Practicar promedio de dos sensores en un contexto util para Python, sensores o automatizacion.
+Practicar suma, division y calculo de promedio.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Calcula el promedio de dos temperaturas.
+Crea dos variables `sensor_1` y `sensor_2` con temperaturas simuladas. Calcula `promedio = (sensor_1 + sensor_2) / 2`. Imprime el promedio.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa dos valores fijos.
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+Promedio: 24.25 C
 
 Restricciones:
-- Suma y divide por 2.
+- Debes definir `promedio`. Se recomienda definir tambien `sensor_1` y `sensor_2`.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. Suma las dos lecturas primero.
+2. Divide el resultado por 2.
+3. Usa parentesis para que el calculo sea claro.
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Cambia las lecturas y predice el promedio antes de ejecutar.
 """
 
 # =========================

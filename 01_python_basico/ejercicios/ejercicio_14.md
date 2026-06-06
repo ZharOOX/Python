@@ -1,22 +1,24 @@
 # Ejercicio 14: Modificar umbral
 
-## Nivel
-reto
-
 ## Objetivo
-Practicar modificar umbral en un contexto util para Python, sensores o automatizacion.
+Practicar el uso de una variable de umbral en un mensaje.
 
 ## Enunciado
-Cambia el umbral y observa como cambia el mensaje construido.
+Crea `temperatura` y `umbral`. Construye e imprime un mensaje que compare o mencione ambos valores. El objetivo es que puedas cambiar el umbral desde una sola variable.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+Temperatura 28 C comparada con umbral 27 C
 
 ## Restricciones
-Usa una variable para el umbral.
+Debes definir `temperatura` y `umbral`. La salida debe mencionar temperatura y umbral.
+
+## Pistas breves
+1. El umbral debe ser una variable, no un numero escrito directamente dentro del print.
+2. Usa f-string para construir el mensaje.
+3. Cambia el umbral y ejecuta de nuevo.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Agrega una variable `mensaje` antes del print.

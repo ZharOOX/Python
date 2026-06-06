@@ -9,6 +9,7 @@
 - Semana 1 reforzada y completa para estudio autonomo.
 - Semana 1 con 5 ejemplos, 15 ejercicios, 15 pistas, 15 soluciones, mini-proyecto y tests pytest.
 - Ejercicios `.py` convertidos a formato autocontenido con docstring y `ZONA DE TRABAJO`.
+- Semana 1 ahora tiene tests que revisan directamente los archivos de `ejercicios/`.
 - Mini-proyecto Semana 1 `simulador_temperatura_basico/` con version inicial, version resuelta, valores fijos, input y retos.
 - Semanas 2 a 24 preparadas con objetivos, teoria inicial, conceptos clave, ejercicios planeados, mini-proyecto definido, checklist y evaluacion inicial.
 

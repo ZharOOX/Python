@@ -1,22 +1,24 @@
 # Ejercicio 07: Mensaje de alerta
 
-## Nivel
-intermedio
-
 ## Objetivo
-Practicar mensaje de alerta en un contexto util para Python, sensores o automatizacion.
+Practicar construccion de texto con variables.
 
 ## Enunciado
-Crea un mensaje con temperatura y umbral.
+Crea `temperatura`, `umbral` y `mensaje`. El mensaje debe incluir la temperatura y el umbral. Imprime `mensaje`. No uses `if`; esta semana solo construimos el texto.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+ALERTA posible: temperatura 31.2 C, umbral 30 C
 
 ## Restricciones
-Aun no uses if; solo construye texto.
+Debes definir una variable llamada `mensaje`. La salida debe mencionar temperatura y umbral.
+
+## Pistas breves
+1. Usa un f-string para insertar valores dentro del texto.
+2. El mensaje puede decir alerta posible, sin decidir con if.
+3. Si pytest falla, revisa que exista la variable `mensaje`.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Agrega humedad al mensaje.

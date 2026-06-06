@@ -1,22 +1,24 @@
 # Ejercicio 05: Temperatura por input
 
-## Nivel
-basico
-
 ## Objetivo
-Practicar temperatura por input en un contexto util para Python, sensores o automatizacion.
+Practicar entrada de usuario y conversion de texto a numero.
 
 ## Enunciado
-Pide temperatura al usuario y muestra el valor como numero.
+Pide una temperatura al usuario con `input()`. Convierte el texto a numero con `float()` y guarda el resultado en una variable llamada `temperatura`. Imprime la lectura recibida.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+24.5
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+Lectura recibida: 24.5 C
 
 ## Restricciones
-Convierte input con float.
+Debes usar `float(input(...))` o una conversion equivalente. La variable final debe llamarse `temperatura`.
+
+## Pistas breves
+1. Recuerda que `input()` devuelve texto.
+2. Usa `float()` para poder trabajar con decimales.
+3. Si pytest falla, revisa que la variable se llame exactamente `temperatura`.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Pide tambien humedad y muestrala en el reporte.

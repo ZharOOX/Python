@@ -25,6 +25,16 @@
 6. Revisar la solucion solo despues de intentarlo.
 7. Ejecutar tests si existen.
 
+## Como interpretar pytest
+
+`pytest` ahora puede revisar tus archivos de ejercicios, no solo las soluciones oficiales.
+
+Si ves `passed`, el ejercicio cumple las comprobaciones automaticas disponibles.
+
+Si ves `failed`, lee el mensaje: normalmente indica que falta un `print()`, una variable esperada o un calculo.
+
+El porcentaje `[100%]` significa que pytest termino de ejecutar los tests seleccionados. No significa que todo el curso este completo; significa que los tests ejecutados pasaron o fallaron segun corresponda.
+
 ## Plan de practica diaria
 
 Practica 4 a 6 dias por semana.

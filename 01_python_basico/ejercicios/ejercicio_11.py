@@ -1,35 +1,39 @@
-﻿"""
+"""
 Ejercicio 11 - Mini reporte ambiental
 
 Objetivo:
-Practicar mini reporte ambiental en un contexto util para Python, sensores o automatizacion.
+Practicar varias variables y varias lineas de salida.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Crea un reporte de temperatura, humedad, voltaje y estado textual.
+Crea variables para `temperatura`, `humedad`, `voltaje` y `estado`. Imprime un mini reporte ambiental que muestre esas cuatro palabras y sus valores.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos.
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+REPORTE AMBIENTAL
+Temperatura: 22.4 C
+Humedad: 55 %
+Voltaje: 3.31 V
+Estado: OK
 
 Restricciones:
-- Usa varias variables y print.
+- La salida debe mencionar temperatura, humedad, voltaje y estado.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. Crea una variable por dato.
+2. Usa varios `print()` para ordenar el reporte.
+3. No necesitas if; `estado` puede ser un texto fijo como "OK".
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Agrega una linea con nombre del dispositivo.
 """
 
 # =========================

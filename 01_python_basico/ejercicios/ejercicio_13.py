@@ -1,35 +1,35 @@
-﻿"""
+"""
 Ejercicio 13 - Configuracion basica
 
 Objetivo:
-Practicar configuracion basica en un contexto util para Python, sensores o automatizacion.
+Practicar variables de configuracion sin usar diccionarios todavia.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Crea variables de configuracion: intervalo, umbral y modo.
+Crea `intervalo_segundos`, `umbral_temperatura` y `modo`. Usa valores fijos. Imprime una linea de configuracion que muestre los tres valores.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos.
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+Intervalo=5s Umbral=30 Modo=manual
 
 Restricciones:
-- No uses diccionarios todavia.
+- `intervalo_segundos` y `umbral_temperatura` deben ser numeros. `modo` debe ser texto.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. Piensa en estos valores como configuracion de un controlador.
+2. Usa nombres largos y claros.
+3. No uses diccionario todavia; eso empieza en Semana 5.
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Cambia el modo a automatico y modifica el mensaje.
 """
 
 # =========================

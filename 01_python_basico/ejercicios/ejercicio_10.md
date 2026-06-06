@@ -1,22 +1,24 @@
 # Ejercicio 10: Corregir tipos
 
-## Nivel
-intermedio
-
 ## Objetivo
-Practicar corregir tipos en un contexto util para Python, sensores o automatizacion.
+Practicar conversion de texto numerico a float antes de calcular.
 
 ## Enunciado
-Corrige un programa que intenta sumar texto con numero.
+Simula una lectura que viene como texto, por ejemplo `lectura = "24.5"`. Crea `ajuste` como numero. Convierte `lectura` con `float()` y guarda la suma en `temperatura_corregida`. Imprime el resultado.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa una lectura de texto fija.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+26.0
 
 ## Restricciones
-Convierte input a float antes de sumar.
+Debes definir `temperatura_corregida` como numero. No sumes texto directamente con numero.
+
+## Pistas breves
+1. El problema es que `"24.5"` es texto.
+2. Usa `float(lectura)` antes de sumar.
+3. Si aparece TypeError, estas mezclando texto y numero.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Cambia el ajuste y verifica el nuevo resultado.

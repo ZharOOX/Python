@@ -1,35 +1,35 @@
-﻿"""
+"""
 Ejercicio 04 - Corriente con Ley de Ohm
 
 Objetivo:
-Practicar corriente con ley de ohm en un contexto util para Python, sensores o automatizacion.
+Practicar division y variables relacionadas con electricidad basica.
 
 Conceptos:
 - variables y tipos basicos
-- print/input y conversiones
-- operaciones con temperatura, humedad, voltaje o corriente
+- print/input y conversiones cuando corresponda
+- lecturas simuladas de sensores y reportes
 
 Instrucciones:
-Calcula corriente usando voltaje y resistencia.
+Crea `voltaje`, `resistencia` y `corriente`. Calcula la corriente con `corriente = voltaje / resistencia`. Imprime el resultado en amperes.
 
 Ejemplo de entrada:
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos, por ejemplo voltaje 5 y resistencia 1000.
 
 Ejemplo de salida:
-Una salida clara por pantalla que permita verificar el resultado.
+Corriente: 0.005 A
 
 Restricciones:
-- I = V / R. No uses resistencia cero.
+- La resistencia no puede ser cero. Debes definir `voltaje`, `resistencia` y `corriente`.
 - No mirar la solucion antes de intentar.
-- Mantener nombres de variables o funciones si el test los necesita.
+- Mantener nombres de variables si el test los necesita.
 
 Pistas:
-1. Identifica primero que datos necesitas guardar.
-2. Escribe una version minima con valores fijos antes de mejorarla.
-3. Ejecuta el archivo despues de cada cambio pequeno y lee el error completo si aparece.
+1. La formula es I = V / R.
+2. Usa una resistencia positiva.
+3. Si aparece division por cero, cambia el valor de resistencia.
 
 Reto extra:
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Calcula la corriente para una resistencia de 220 ohm.
 """
 
 # =========================
@@ -37,4 +37,8 @@ Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sent
 # =========================
 # Escribe tu codigo aqui
 
+voltaje = 5
+resistencia = 220
+corriente = voltaje/resistencia
 
+print(f"Con un voltaje de {voltaje} V y una resistencia de {resistencia} ohm, tenemos una corriente de {corriente} A")

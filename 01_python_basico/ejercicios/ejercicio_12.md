@@ -1,22 +1,24 @@
 # Ejercicio 12: Sensor simulado fijo
 
-## Nivel
-aplicado
-
 ## Objetivo
-Practicar sensor simulado fijo en un contexto util para Python, sensores o automatizacion.
+Practicar una lectura simulada y una correccion simple.
 
 ## Enunciado
-Simula una lectura fija de sensor y calcula una lectura calibrada.
+Crea `lectura_sensor` con una temperatura simulada. Crea `offset` con una correccion pequena, por ejemplo -0.7. Calcula `lectura_calibrada = lectura_sensor + offset` e imprime el valor calibrado.
 
 ## Entrada esperada
-Valores fijos en el codigo o entrada por teclado si el enunciado lo pide.
+No uses input. Usa valores fijos.
 
 ## Salida esperada
-Una salida clara por pantalla que permita verificar el resultado.
+Calibrada: 25.3 C
 
 ## Restricciones
-Suma un offset pequeno.
+Debes definir `lectura_sensor`, `offset` y `lectura_calibrada` como numeros.
+
+## Pistas breves
+1. El offset puede ser positivo o negativo.
+2. La lectura calibrada es la suma de lectura y offset.
+3. Imprime el resultado para poder comprobarlo.
 
 ## Variante extra
-Cambia valores, nombres o umbrales y observa si el resultado sigue teniendo sentido.
+Prueba con un offset positivo.
